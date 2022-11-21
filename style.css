@@ -1,3 +1,26 @@
 *{
   box-sizing: border-box;
 }
+.box{
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(7, 7, 7, 0.148);
+  padding: 10px;
+  margin: 20px 25px;
+  margin-bottom: 25px;
+}
+.blue{
+  background-color: blue;
+}
+.container{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.321);
+  margin: 50px;
+  display: flex;
+}
+.sidebar{
+flex: 0 0 250px;
+margin-right: 10px;
+
+}
+.content{
+  flex: 1 1 auto;
+}
